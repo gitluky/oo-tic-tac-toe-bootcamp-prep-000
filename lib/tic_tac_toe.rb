@@ -47,7 +47,7 @@ def display_board
   puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
 end
 
-def turn_count(@board)
+def turn_count
   count = 0
   @board.each do |location|
     if location != " "
